@@ -7,6 +7,7 @@ const forecast = require('./utils/forecast')
 
 const app = express()
 
+
 // Setup handlebars engine
 app.set('view engine', 'hbs')
 app.set('views', path.join(__dirname, '../templates/views'))
